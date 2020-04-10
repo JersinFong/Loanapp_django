@@ -15,7 +15,7 @@ django + djangorestframwork + docker + heroku
 1. Build a Restful API wit djanogrestframework for loanapp that supports CRUD operations
    
    a. Create/POST: 
-      
+  
       endpoint: api/loanapp/
       
       accepts valid json file
