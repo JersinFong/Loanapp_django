@@ -16,19 +16,19 @@ django + djangorestframwork + docker + heroku
    
    a. Create/POST: 
   
-      endpoint: api/loanapp/
+        endpoint: api/loanapp/
       
-      accepts valid json file
+        accepts valid json file
    
    b. Retrieve/Update/Delete(GET, PUT, DELETE)
       
-      endipoint: api/status/<:id>/
+        endipoint: api/status/<:id>/
       
-      this id is automatically created by database, starts from 1.
+        this id is automatically created by database, starts from 1.
    
    c. when user post duplicate app, update the old one instead of posting a new one
       
-      based on limited information I had, I simply assumed the CFRequestId inside RequestHeader is unique for each app, so I used this    value to check is duplicates occur
+        based on limited information I had, I simply assumed the CFRequestId inside RequestHeader is unique for each app, so I used this    value to check is duplicates occur
       
 2. Write unit test suites for all methods
    
